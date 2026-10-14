@@ -89,11 +89,6 @@ fix: 修好了，但不知道为什么
   </picture>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Smartloe&amp;bg_color=0b1a1f&amp;color=22d3ee&amp;line=22b8cf&amp;point=22d3ee&amp;area=true&amp;hide_border=true&amp;custom_title=%E8%BF%99%E4%B8%80%E5%B9%B4%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BB%80%E4%B9%88">
-  <img width="100%" alt="贡献活动曲线" src="https://github-readme-activity-graph.vercel.app/graph?username=Smartloe&amp;bg_color=f0fbfd&amp;color=1098ad&amp;line=2dd4bf&amp;point=0b6e8a&amp;area=true&amp;hide_border=true&amp;custom_title=%E8%BF%99%E4%B8%80%E5%B9%B4%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BB%80%E4%B9%88">
-</picture>
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Smartloe/Smartloe/output/snake-dark.svg">
@@ -101,7 +96,7 @@ fix: 修好了，但不知道为什么
   </picture>
 </p>
 
-> 上面这些卡片分别来自 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)、[streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)、[activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) 和 [snk](https://github.com/Platane/snk)。
+> 上面这些卡片分别来自 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)、[streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) 和 [snk](https://github.com/Platane/snk)。
 > 它们都是免费公共服务，偶尔会集体罢工——**要是图裂了，那不是我删库跑路，过会儿再来。**
 
 ---
