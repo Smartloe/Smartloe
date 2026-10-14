@@ -25,7 +25,7 @@
 
 <a href="https://github.com/Smartloe?tab=followers"><img alt="关注者" src="https://img.shields.io/github/followers/Smartloe?style=flat-square&amp;color=1098ad&amp;labelColor=e6f7fa&amp;label=%E5%85%B3%E6%B3%A8"></a>
 <a href="https://github.com/Smartloe?tab=repositories"><img alt="获得的星标" src="https://img.shields.io/github/stars/Smartloe?affiliations=OWNER&amp;style=flat-square&amp;color=1098ad&amp;labelColor=e6f7fa&amp;label=%E6%94%B6%E8%8E%B7%E7%9A%84%E6%98%9F"></a>
-<img alt="访问量" src="https://komarev.com/ghpvc/?username=Smartloe&amp;color=1098ad&amp;style=flat-square&amp;label=%E8%B7%AF%E8%BF%87%E7%9A%84%E4%BA%BA">
+<img alt="访问量" src="https://hits.sh/github.com/Smartloe.svg?label=%E8%B7%AF%E8%BF%87%E7%9A%84%E4%BA%BA&amp;color=1098ad&amp;labelColor=334e56&amp;style=flat-square">
 
 </div>
 
