@@ -1,0 +1,37 @@
+name: 🐍 生成贡献贪吃蛇
+
+on:
+  schedule:
+    # 每天 01:23 UTC = 北京时间 09:23
+    # 刻意避开整点：GitHub 的定时任务在整点会排长队，经常延迟几十分钟
+    - cron: "23 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+# 需要写权限才能把生成结果推到 output 分支
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 生成贪吃蛇 SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Smartloe
+          # color_dots 必须正好 5 个颜色：
+          # 第 1 个是「零贡献」的格子，然后由浅到深依次对应贡献度
+          outputs: |
+            dist/snake-light.svg?color_snake=#1098ad&color_dots=#eaf4f6,#c9e9f0,#7fd4e3,#22b8cf,#0b6e8a
+            dist/snake-dark.svg?color_snake=#22d3ee&color_dots=#0e2229,#134048,#1a6b78,#22b8cf,#22d3ee
+
+      - name: 推送到 output 分支
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
