@@ -147,7 +147,7 @@ fix: 修好了，但不知道为什么
 
 > 一共 71 个公开仓库。这里只放我真正想让人点进去的 8 个。
 
-### 🎆 [taichi-fireworks](https://github.com/Smartloe/taichi-fireworks)
+### 🎆 镇馆之宝 · [taichi-fireworks](https://github.com/Smartloe/taichi-fireworks)
 
 > 68 秒的烟花秀：真实物理弹道、12 种花型、程序化同步音轨，
 > 结尾用 **1500 颗星体**在天上写出「新年快乐」。
